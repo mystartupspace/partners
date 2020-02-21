@@ -1,0 +1,27 @@
+.JsonInput {
+  & input {
+    border-width: 1px !important;
+    border-radius: 1px;
+  }
+  & table td {
+    vertical-align: middle;
+    padding: 0.5rem;
+  }
+  direction: "ltr";
+  & table .addRow {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+    border-radius: 1px;
+  }
+  & span.jsonError {
+    display: inline-block;
+    margin: auto;
+    width: fit-content;
+    padding: 5px;
+    color: red;
+  }
+}
+._rtl {
+  direction: rtl !important;
+}

@@ -1,0 +1,19 @@
+{
+  "direction": "rtl",
+  "locale": {
+    "login_modal_title": "ورود به پنل کاربر",
+    "language": "زبان",
+    "logout": "خروج",
+    "buisness_partnership": "ثبت فضای کار",
+    "contact_us": "تماس با ما",
+    "faq": "سوالات متداول",
+    "home": "خانه",
+    "myrequests": "صفحه من",
+    "partnership": "همکاری",
+    "login": "ورود به پنل کاربر",
+    "partner_panel": "پنل همکار",
+    "partnerpanel_manage_requests": "مدیریت درخواستها",
+    "partnerpanel_myproducts": "محصولات من",
+    "partnerpanel_myprofile": "تنظیمات پروفایل"
+  }
+}

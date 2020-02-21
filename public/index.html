@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+   
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-145850270-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-145850270-1");
+    </script>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <meta name="description" content=". فضای کار اشتراکی یا دفتر کار ارزان خود را با یک درخواست در تهران، مشهد، اصفهان، تبریز، رشت، اهواز یا هرکجای ایران را پیدا کنید">
+    <meta name="keywords" content="فضای کار اشتراکی,دفتر کار,دفتر کار ارزان,اجاره دفتر,اجاره اتاق اداری,اتاق اداری">
+    <meta name="author" content="فخرالدین رضایی">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!-- <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css"
+    /> -->
+    <style>
+      h1,
+      h2,
+      p {
+        text-align: center;
+      }
+      .leaflet-container {
+        height: 400px;
+        width: 100%;
+        margin: 0 auto;
+      }
+    </style>
+    <title>اجاره فضای کار اشتراکی و اداری | Startup Space</title>
+    <script type="text/javascript">
+      !(function() {
+        function t() {
+          var t = document.createElement("script");
+          (t.type = "text/javascript"),
+            (t.async = !0),
+            localStorage.getItem("rayToken")
+              ? (t.src =
+                  "https://app.raychat.io/scripts/js/" +
+                  o +
+                  "?rid=" +
+                  localStorage.getItem("rayToken") +
+                  "&href=" +
+                  window.location.href)
+              : (t.src = "https://app.raychat.io/scripts/js/" + o);
+          var e = document.getElementsByTagName("script")[0];
+          e.parentNode.insertBefore(t, e);
+        }
+        var e = document,
+          a = window,
+          o = "c4341c10-a7f5-46f1-817d-af81abfeef92";
+        "complete" == e.readyState
+          ? t()
+          : a.attachEvent
+          ? a.attachEvent("onload", t)
+          : a.addEventListener("load", t, !1);
+      })();
+    </script>
+
+    <script>
+      if (window.NODE_ENV === "production") {
+        (function(h, o, t, j, a, r) {
+          h.hj =
+            h.hj ||
+            function() {
+              (h.hj.q = h.hj.q || []).push(arguments);
+            };
+          h._hjSettings = { hjid: 1565672, hjsv: 6 };
+          a = o.getElementsByTagName("head")[0];
+          r = o.createElement("script");
+          r.async = 1;
+          r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+          a.appendChild(r);
+        })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

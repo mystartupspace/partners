@@ -1,0 +1,19 @@
+{
+  "direction": "ltr",
+  "locale": {
+    "login_modal_title": "Login",
+    "language": "language",
+    "logout": "Logout",
+    "partnership": "Partnership",
+    "buisness_partnership": "Add your space",
+    "contact_us": "Contact Us",
+    "faq": "FAQs",
+    "home": "Home",
+    "myrequests": "My Page",
+    "login": "Login",
+    "partner_panel": "Partner panel",
+    "partnerpanel_manage_requests": "Manage requests",
+    "partnerpanel_myproducts": "My products",
+    "partnerpanel_myprofile": "Profile setting"
+  }
+}
